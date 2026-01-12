@@ -4,8 +4,8 @@ import pandas as pd
 
 # --- 1. KONFIGURACJA POŁĄCZENIA ---
 # Upewnij się, że używasz klucza 'anon' oraz 'public'
-SUPABASE_URL = "TWÓJ_URL_Z_SUPABASE"
-SUPABASE_KEY = "TWÓJ_KLUCZ_ANON_PUBLIC"
+SUPABASE_URL = "https://lebwwcdxktfrnlvfzdpu.supabase.co"
+SUPABASE_KEY = "sb_publishable_DesBgdUsTaKyIbwoeK4Yyw_sRqfgEih"
 
 @st.cache_resource
 def init_connection():
